@@ -6,6 +6,7 @@ toolselect = input("""What tool do you need?
 3: Cylinder Surface Area
 4: Point Distance
 5: Rectangular Prism
+6: Trapezoid Area
 """)
 
 if toolselect == "1":
@@ -32,6 +33,11 @@ elif toolselect == "5":
     height = float(input("What is your height?\n"))
     print("Your volume is:", length * width * height, "\n")
     print("Your surface area is:", (width * height * 2) + (width * length * 2) + (length * height * 2), "\n")
+elif toolselect == "6":
+    top = float(input("Top base\n"))
+    bottom = float(input("Bottom Base\n"))
+    height = float(input("Height\n"))
+    print("The area of your trapazoid is:", (height / 2) * (top + bottom), "\n")
 else:
     print("Sorry that was not recognized\n")
     exit()
