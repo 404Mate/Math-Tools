@@ -1,12 +1,7 @@
-radius = input("What is your radius?\n")
-height  = input("What is your height?\n")
-radius = float(radius)
-height = float(height)
-circumfrence = radius
-radius = radius * radius
-area = radius * 3.14 
-surface = height * 2 * circumfrence * 3.14 + area + area
-print("Your surface area is:", surface)
+radius = float(input("What is your radius?\n"))
+height  = float(input("What is your height?\n"))
+
+print("Your surface area is:", height * 2 * radius * 3.14 + (2 * 3.14 * radius ** 2))
 
 #---------------------------
 #  Made by 404Mate with <3  

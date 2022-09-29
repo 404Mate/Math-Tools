@@ -1,14 +1,7 @@
-radius = input("what is your radius?\n")
-radius = int(radius)
-height = input("\nwhat is your height?\n")
-height = float(height)
+radius = float(input("what is your radius?\n"))
+height = float(input("what is your height?\n"))
 
-part1 = radius * radius
-
-base = part1 * 3.14
-
-print("\n")
-print("Your Volume is: ", base * height / 3)
+print("Your Volume is: ", radius ** 2 * 3.14 * height / 3)
 
 
 #---------------------------

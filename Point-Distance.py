@@ -1,18 +1,11 @@
 from math import sqrt
 
-x1 = input("X1\n")
-y1 = input("Y1\n")
-x2 = input("X2\n")
-y2 = input("Y2\n")
+x1 = float(input("X1\n"))
+y1 = float(input("Y1\n"))
+x2 = float(input("X2\n"))
+y2 = float(input("Y2\n"))
 
-part1 = float(x2) - float(x1)
-part2 = float(y2) - float(y1)
-
-part1 = part1 * part1 
-part2 = part2 * part2
-
-
-print("The distance is the square root of", part1 + part2, "or", sqrt(part1 + part2))
+print("The distance is the square root of", (x2 - x1) ** 2 + (y2 - y1) ** 2, "or", sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2))
 
 #---------------------------
 #  Made by 404Mate with <3  
