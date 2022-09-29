@@ -8,3 +8,7 @@ Random (horribly programed) tools i made to make my math work easier
 3: cylinder-area.py gets the surface area of a cylinder  
 3: cone-volume.py gets the volume of a cone  
 4: circle-area.py gets the area of a circle  
+
+
+# NOTES  
+1: Uses 3.14 for Pi
