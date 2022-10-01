@@ -7,6 +7,7 @@ toolselect = input("""What tool do you need?
 4: Point Distance
 5: Rectangular Prism
 6: Trapezoid Area
+7: Area between concentric circles
 """)
 
 if toolselect == "1":
@@ -38,6 +39,10 @@ elif toolselect == "6":
     bottom = float(input("Bottom Base\n"))
     height = float(input("Height\n"))
     print("The area of your trapazoid is:", (height / 2) * (top + bottom), "\n")
+elif toolselect == "7":
+    big = float(input("Big circle\n"))
+    small = float(input("Small Circle\n"))
+    print("The area is", 3.14 * big ** 2 - 3.14 * small ** 2)
 else:
     print("Sorry that was not recognized\n")
     exit()
