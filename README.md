@@ -1,5 +1,5 @@
 # Math-Tools
-Random (horribly programed) tools i made to make my math work easier
+Random (horribly programmed) tools I made to make my math work easier
 
 ---
 
